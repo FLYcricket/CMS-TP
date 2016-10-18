@@ -1,0 +1,38 @@
+[ 2016-10-14T09:25:20+08:00 ] 127.0.0.1 /thinkphp_3.2.3/CMS.php/Home/CmsIndex/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ppt` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `ppt` LIMIT 4   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `notice`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `article_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `article` WHERE ( category_id=6 ) LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp_3.2.3\CMS\Home\Controller\CmsIndexController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-14T09:25:20+08:00 ] 127.0.0.1 /thinkphp_3.2.3/CMS.php/Home/CmsIndex/flvplayer.swf?file=ftp://218.28.100.165/HNLT-Fly.FLV
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:flvplayer.swf
+
